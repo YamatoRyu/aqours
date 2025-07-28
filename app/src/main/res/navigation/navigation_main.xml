@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="protection.member.aqours.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/imageAqoursFragment"
+        android:name="protection.member.aqours.fragment.AqoursImageFragment"
+        android:label="fragment_image"
+        tools:layout="@layout/fragment_aqours_image" />
+    <fragment
+        android:id="@+id/musicSoloFragment"
+        android:name="protection.member.aqours.fragment.MusicSoloFragment"
+        android:label="fragment_music"
+        tools:layout="@layout/fragment_music_solo" />
+    <fragment
+        android:id="@+id/personFragment"
+        android:name="protection.member.aqours.fragment.PersonFragment"
+        android:label="fragment_person"
+        tools:layout="@layout/fragment_person" />
+    <fragment
+        android:id="@+id/storyFragment"
+        android:name="protection.member.aqours.fragment.StoryFragment"
+        android:label="fragment_story"
+        tools:layout="@layout/fragment_story" />
+
+</navigation>

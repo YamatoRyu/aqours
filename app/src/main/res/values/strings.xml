@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="app_name">Aqours</string>
+
+    <string name="open_nav">Open Navigation</string>
+    <string name="close_nav">Close Navigation</string>
+
+    <string name="home">Home</string>
+    <string name="person">Person</string>
+    <string name="image">Aqours Image</string>
+    <string name="music_solo">Music Solo</string>
+    <string name="story">Story</string>
+
+    <string name="music_group">Music Group</string>
+
+    <string name="navbar_name">Aqours Leader: Chika-chan</string>
+
+    <integer-array name="image_face">
+
+        <item>@drawable/chika_face1</item>
+        <item>@drawable/riko_face1</item>
+        <item>@drawable/kanan_face1</item>
+        <item>@drawable/dia_face1</item>
+        <item>@drawable/you_face1</item>
+        <item>@drawable/yoshiko_face1</item>
+        <item>@drawable/hanamaru_face1</item>
+
+    </integer-array>
+
+    <string-array name="image_name">
+
+        <item>Takami Chika</item>
+        <item>Sakurauchi Riko</item>
+        <item>Matsuura Kanan</item>
+        <item>Kurosawa Dia</item>
+        <item>Watanabe You</item>
+        <item>Tsushima Yoshiko</item>
+        <item>Kunikida Hanamaru</item>
+
+    </string-array>
+
+</resources>

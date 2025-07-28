@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navbar_home"
+            android:icon="@drawable/icon_home"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/navbar_person"
+            android:icon="@drawable/icon_person"
+            android:title="@string/person" />
+
+        <item
+            android:id="@+id/navbar_music_solo"
+            android:icon="@drawable/icon_music"
+            android:title="@string/music_solo" />
+
+        <item
+            android:id="@+id/navbar_image"
+            android:icon="@drawable/icon_image"
+            android:title="@string/image" />
+
+    </group>
+
+    <item
+        android:title="">
+
+        <menu>
+
+            <group
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/story"
+                    android:icon="@drawable/aqours_story"
+                    android:title="@string/story" />
+
+                <item
+                    android:id="@+id/music_group"
+                    android:icon="@drawable/music_group"
+                    android:title="@string/music_group" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>

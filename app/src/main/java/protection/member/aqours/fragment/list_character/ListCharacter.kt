@@ -4,7 +4,7 @@ import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
-data class ListPerson(
+data class ListCharacter(
     val characterPhoto: Int,
     val characterName: String
 ) : Parcelable

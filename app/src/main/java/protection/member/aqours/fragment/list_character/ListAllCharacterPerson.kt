@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 import protection.member.aqours.R
 
-class ListAllCharacter(private val listMember: List<ListPerson>) : RecyclerView.Adapter<ListAllCharacter.ListCharacterMember>() {
+class ListAllCharacterPerson(private val listMember: List<ListCharacter>) : RecyclerView.Adapter<ListAllCharacterPerson.ListCharacterMember>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListCharacterMember {
         val view: View = LayoutInflater.from(parent.context).inflate(R.layout.list_character, parent, false)
         return ListCharacterMember(view)

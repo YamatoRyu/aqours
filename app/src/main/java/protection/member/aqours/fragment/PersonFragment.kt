@@ -9,16 +9,16 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import protection.member.aqours.databinding.FragmentPersonBinding
-import protection.member.aqours.fragment.list_character.ListPerson
+import protection.member.aqours.fragment.list_character.ListCharacter
 import protection.member.aqours.R
-import protection.member.aqours.fragment.list_character.ListAllCharacter
+import protection.member.aqours.fragment.list_character.ListAllCharacterPerson
 
 class PersonFragment : Fragment() {
     private var _binding: FragmentPersonBinding? = null
     private val binding get() = _binding!!
 
     private lateinit var recyclerView: RecyclerView
-    private var arrayList: ArrayList<ListPerson> = ArrayList()
+    private var arrayList: ArrayList<ListCharacter> = ArrayList()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         _binding = FragmentPersonBinding.inflate(layoutInflater, container, false)
@@ -36,14 +36,14 @@ class PersonFragment : Fragment() {
     }
 
     @SuppressLint("Recycle")
-    private fun getListAddCharacter(): ArrayList<ListPerson> {
-        val memberList = ArrayList<ListPerson>()
+    private fun getListAddCharacter(): ArrayList<ListCharacter> {
+        val memberList = ArrayList<ListCharacter>()
 
         val dataImage = resources.obtainTypedArray(R.array.image_face)
         val dataName = resources.getStringArray(R.array.image_name)
 
         for (i in dataName.indices) {
-            val member = ListPerson(
+            val member = ListCharacter(
                 dataImage.getResourceId(i, -1),
                 dataName[i]
             )
@@ -56,7 +56,7 @@ class PersonFragment : Fragment() {
 
     private fun showAllCharacterList() {
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
-        val listAllCharacter = ListAllCharacter(arrayList)
-        recyclerView.adapter = listAllCharacter
+        val listAllCharacterPerson = ListAllCharacterPerson(arrayList)
+        recyclerView.adapter = listAllCharacterPerson
     }
 }

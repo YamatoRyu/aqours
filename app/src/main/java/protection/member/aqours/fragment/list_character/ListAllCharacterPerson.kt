@@ -1,5 +1,6 @@
 package protection.member.aqours.fragment.list_character
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,8 +9,9 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 import protection.member.aqours.R
+import protection.member.aqours.fragment.person.PersonActivity
 
-class ListAllCharacterPerson(private val listMember: List<ListCharacter>) : RecyclerView.Adapter<ListAllCharacterPerson.ListCharacterMember>() {
+class ListAllCharacterPerson(private val listCharacter: List<ListCharacter>) : RecyclerView.Adapter<ListAllCharacterPerson.ListCharacterMember>() {
     private lateinit var onClickCallBack: OnClickCallBack
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListCharacterMember {
@@ -18,16 +20,22 @@ class ListAllCharacterPerson(private val listMember: List<ListCharacter>) : Recy
     }
 
     override fun onBindViewHolder(holder: ListCharacterMember, position: Int) {
-        val (facePhoto, name) = listMember[position]
+        val (facePhoto, name) = listCharacter[position]
         holder.imageFace.setImageResource(facePhoto)
         holder.imageName.text = name
 
         holder.itemView.setOnClickListener {
-            onClickCallBack.onItemClickCall(listMember[position])
+            onClickCallBack.onItemClickCall(listCharacter[position])
+
+            val intent = Intent(holder.itemView.context, PersonActivity::class.java).apply {
+                putExtra("MEMBER_NAME", listCharacter[position])
+            }
+
+            holder.itemView.context.startActivity(intent)
         }
     }
 
-    override fun getItemCount(): Int = listMember.size
+    override fun getItemCount(): Int = listCharacter.size
 
     class ListCharacterMember(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val imageFace: ImageView = itemView.findViewById(R.id.personal_face)

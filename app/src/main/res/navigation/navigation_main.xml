@@ -24,11 +24,20 @@
         android:id="@+id/personFragment"
         android:name="protection.member.aqours.fragment.person.PersonFragment"
         android:label="fragment_person"
-        tools:layout="@layout/fragment_person" />
+        tools:layout="@layout/fragment_person" >
+        <action
+            android:id="@+id/action_personFragment_to_personActivity"
+            app:destination="@id/personActivity" />
+    </fragment>
     <fragment
         android:id="@+id/storyFragment"
         android:name="protection.member.aqours.fragment.StoryFragment"
         android:label="fragment_story"
         tools:layout="@layout/fragment_story" />
+    <activity
+        android:id="@+id/personActivity"
+        android:name="protection.member.aqours.fragment.person.PersonActivity"
+        android:label="activity_person"
+        tools:layout="@layout/activity_person" />
 
 </navigation>

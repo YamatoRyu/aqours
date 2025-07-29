@@ -10,6 +10,8 @@ import androidx.recyclerview.widget.RecyclerView
 import protection.member.aqours.R
 
 class ListAllCharacterPerson(private val listMember: List<ListCharacter>) : RecyclerView.Adapter<ListAllCharacterPerson.ListCharacterMember>() {
+    private lateinit var onClickCallBack: OnClickCallBack
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListCharacterMember {
         val view: View = LayoutInflater.from(parent.context).inflate(R.layout.list_character, parent, false)
         return ListCharacterMember(view)
@@ -19,6 +21,10 @@ class ListAllCharacterPerson(private val listMember: List<ListCharacter>) : Recy
         val (facePhoto, name) = listMember[position]
         holder.imageFace.setImageResource(facePhoto)
         holder.imageName.text = name
+
+        holder.itemView.setOnClickListener {
+            onClickCallBack.onItemClickCall(listMember[position])
+        }
     }
 
     override fun getItemCount(): Int = listMember.size
@@ -26,5 +32,9 @@ class ListAllCharacterPerson(private val listMember: List<ListCharacter>) : Recy
     class ListCharacterMember(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val imageFace: ImageView = itemView.findViewById(R.id.personal_face)
         val imageName: TextView = itemView.findViewById(R.id.personal_name)
+    }
+
+    interface OnClickCallBack {
+        fun onItemClickCall(listCharacter: ListCharacter)
     }
 }

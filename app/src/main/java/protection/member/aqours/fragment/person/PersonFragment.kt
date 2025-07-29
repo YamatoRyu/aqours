@@ -1,4 +1,4 @@
-package protection.member.aqours.fragment
+package protection.member.aqours.fragment.person
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -8,10 +8,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import protection.member.aqours.databinding.FragmentPersonBinding
-import protection.member.aqours.fragment.list_character.ListCharacter
 import protection.member.aqours.R
+import protection.member.aqours.databinding.FragmentPersonBinding
 import protection.member.aqours.fragment.list_character.ListAllCharacterPerson
+import protection.member.aqours.fragment.list_character.ListCharacter
 
 class PersonFragment : Fragment() {
     private var _binding: FragmentPersonBinding? = null

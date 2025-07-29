@@ -22,7 +22,7 @@
         tools:layout="@layout/fragment_music_solo" />
     <fragment
         android:id="@+id/personFragment"
-        android:name="protection.member.aqours.fragment.PersonFragment"
+        android:name="protection.member.aqours.fragment.person.PersonFragment"
         android:label="fragment_person"
         tools:layout="@layout/fragment_person" />
     <fragment

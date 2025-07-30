@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 import protection.member.aqours.R
 import protection.member.aqours.fragment.person.PersonActivity
 
-class ListAllCharacterPerson(private val listCharacter: List<ListCharacter>) : RecyclerView.Adapter<ListAllCharacterPerson.ListCharacterMember>() {
+class ListAllCharacterPerson(private val listCharacter: List<ListCharacterPerson>) : RecyclerView.Adapter<ListAllCharacterPerson.ListCharacterMember>() {
     private lateinit var onClickCallBack: OnClickCallBack
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListCharacterMember {
@@ -43,6 +43,6 @@ class ListAllCharacterPerson(private val listCharacter: List<ListCharacter>) : R
     }
 
     interface OnClickCallBack {
-        fun onItemClickCall(listCharacter: ListCharacter)
+        fun onItemClickCall(listCharacter: ListCharacterPerson)
     }
 }

@@ -11,14 +11,14 @@ import androidx.recyclerview.widget.RecyclerView
 import protection.member.aqours.R
 import protection.member.aqours.databinding.FragmentPersonBinding
 import protection.member.aqours.fragment.list_character.ListAllCharacterPerson
-import protection.member.aqours.fragment.list_character.ListCharacter
+import protection.member.aqours.fragment.list_character.ListCharacterPerson
 
 class PersonFragment : Fragment() {
     private var _binding: FragmentPersonBinding? = null
     private val binding get() = _binding!!
 
     private lateinit var recyclerView: RecyclerView
-    private var arrayList: ArrayList<ListCharacter> = ArrayList()
+    private var arrayList: ArrayList<ListCharacterPerson> = ArrayList()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         _binding = FragmentPersonBinding.inflate(layoutInflater, container, false)
@@ -36,14 +36,14 @@ class PersonFragment : Fragment() {
     }
 
     @SuppressLint("Recycle")
-    private fun getListAddCharacter(): ArrayList<ListCharacter> {
-        val memberList = ArrayList<ListCharacter>()
+    private fun getListAddCharacter(): ArrayList<ListCharacterPerson> {
+        val memberList = ArrayList<ListCharacterPerson>()
 
         val dataImage = resources.obtainTypedArray(R.array.image_face)
         val dataName = resources.getStringArray(R.array.image_name)
 
         for (i in dataName.indices) {
-            val member = ListCharacter(
+            val member = ListCharacterPerson(
                 dataImage.getResourceId(i, -1),
                 dataName[i]
             )

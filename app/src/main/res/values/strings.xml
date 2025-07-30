@@ -24,6 +24,8 @@
         <item>@drawable/you_face1</item>
         <item>@drawable/yoshiko_face1</item>
         <item>@drawable/hanamaru_face1</item>
+        <item>@drawable/mari_face1</item>
+        <item>@drawable/ruby_face1</item>
 
     </integer-array>
 
@@ -36,6 +38,8 @@
         <item>Watanabe You</item>
         <item>Tsushima Yoshiko</item>
         <item>Kunikida Hanamaru</item>
+        <item>Ohara Mari</item>
+        <item>Kurosawa Ruby</item>
 
     </string-array>
 

@@ -24,7 +24,7 @@
                 android:id="@+id/image"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/riko_image" />
+                tools:src="@drawable/riko_image" />
 
         </androidx.cardview.widget.CardView>
 
@@ -54,12 +54,41 @@
             tools:ignore="RtlSymmetry">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:text="Background" />
+
+            <TextView
                 android:id="@+id/background_about"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:textSize="15sp"
                 android:textColor="@color/black"
                 tools:text="Background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingStart="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:text="Personality" />
+
+            <TextView
+                android:id="@+id/personal_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                tools:text="Personality" />
 
         </LinearLayout>
 

@@ -47,5 +47,14 @@
     <string name="school_years">School Years</string>
     <string name="birthday">Birthday</string>
     <string name="astrological_sign">Astrological Sign</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="height">Height</string>
+
+    <string name="background">Background</string>
+    <string name="personality">Personality</string>
+    <string name="skill">Skill</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="liked_food">Liked Food</string>
+    <string name="dislike_food">Dislike Food</string>
 
 </resources>

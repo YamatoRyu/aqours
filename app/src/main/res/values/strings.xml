@@ -43,4 +43,9 @@
 
     </string-array>
 
+    <string name="sub_group">Sub Group</string>
+    <string name="school_years">School Years</string>
+    <string name="birthday">Birthday</string>
+    <string name="astrological_sign">Astrological Sign</string>
+
 </resources>

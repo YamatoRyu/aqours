@@ -33,10 +33,10 @@
             android:layout_marginStart="15dp"
             android:layout_marginTop="36dp"
             android:textSize="20sp"
-            android:textColor="@color/aqours_color"
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/personal_face"
             app:layout_constraintTop_toTopOf="parent"
+            tools:textColor="@color/aqours_color"
             tools:text="Name" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

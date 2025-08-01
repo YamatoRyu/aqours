@@ -29,6 +29,20 @@
 
     </integer-array>
 
+    <integer-array name="image_clothes">
+
+        <item>@drawable/chika_image</item>
+        <item>@drawable/riko_image</item>
+        <item>@drawable/kanan_image</item>
+        <item>@drawable/dia_image</item>
+        <item>@drawable/you_image</item>
+        <item>@drawable/yoshiko_image</item>
+        <item>@drawable/hanamaru_image</item>
+        <item>@drawable/mari_image</item>
+        <item>@drawable/ruby_image</item>
+
+    </integer-array>
+
     <string-array name="image_name">
 
         <item>Takami Chika</item>
@@ -40,6 +54,48 @@
         <item>Kunikida Hanamaru</item>
         <item>Ohara Mari</item>
         <item>Kurosawa Ruby</item>
+
+    </string-array>
+
+    <integer-array name="image_color">
+
+        <item>@color/chika_chan</item>
+        <item>@color/riko_chan</item>
+        <item>@color/kanan_chan</item>
+        <item>@color/dia_chan</item>
+        <item>@color/you_chan</item>
+        <item>@color/yoshiko_chan</item>
+        <item>@color/hanamaru_chan</item>
+        <item>@color/mari_chan</item>
+        <item>@color/ruby_chan</item>
+
+    </integer-array>
+
+    <string-array name="image_sub_group">
+
+        <item>CYaRon!</item>
+        <item>Guilty Kiss</item>
+        <item>AZALEA</item>
+        <item>AZALEA</item>
+        <item>CYaRon!</item>
+        <item>Guilty Kiss</item>
+        <item>AZALEA</item>
+        <item>Guilty Kiss</item>
+        <item>CYaRon!</item>
+
+    </string-array>
+
+    <string-array name="image_school_years">
+
+        <item>2nd year</item>
+        <item>2nd year</item>
+        <item>3rd year</item>
+        <item>3rd year</item>
+        <item>2nd year</item>
+        <item>1st year</item>
+        <item>1st year</item>
+        <item>3rd year</item>
+        <item>1st year</item>
 
     </string-array>
 

@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -39,13 +40,21 @@ class PersonFragment : Fragment() {
     private fun getListAddCharacter(): ArrayList<ListCharacterPerson> {
         val memberList = ArrayList<ListCharacterPerson>()
 
-        val dataImage = resources.obtainTypedArray(R.array.image_face)
+        val dataFace = resources.obtainTypedArray(R.array.image_face)
+        val dataImage = resources.obtainTypedArray(R.array.image_clothes)
         val dataName = resources.getStringArray(R.array.image_name)
+        val dataColorName = resources.getIntArray(R.array.image_color)
+        val dataSubGroup = resources.getStringArray(R.array.image_sub_group)
+        val dataSchoolYear = resources.getStringArray(R.array.image_school_years)
 
         for (i in dataName.indices) {
             val member = ListCharacterPerson(
+                dataName[i],
+                dataFace.getResourceId(i, -1),
+                dataColorName[i],
                 dataImage.getResourceId(i, -1),
-                dataName[i]
+                dataSubGroup[i],
+                dataSchoolYear[i]
             )
 
             memberList.add(member)
@@ -58,5 +67,16 @@ class PersonFragment : Fragment() {
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
         val listAllCharacterPerson = ListAllCharacterPerson(arrayList)
         recyclerView.adapter = listAllCharacterPerson
+
+        listAllCharacterPerson.setOnCharacterClick(object : ListAllCharacterPerson.OnClickCallBack {
+            override fun onItemClickCall(listCharacter: ListCharacterPerson) {
+                showCharacterPerson(listCharacter)
+            }
+        })
+    }
+
+    private fun showCharacterPerson(listCharacter: ListCharacterPerson) {
+        val characterName = listCharacter.toString().split("\\s|, ".toRegex())
+        Toast.makeText(requireContext(), "All about ${characterName[1]}-chan", Toast.LENGTH_SHORT).show()
     }
 }

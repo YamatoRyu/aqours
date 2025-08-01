@@ -4,4 +4,14 @@
     <color name="aqours_color">#51ABF1</color>
     <color name="primary">#0d6efd</color>
 
+    <color name="chika_chan">#ff9547</color>
+    <color name="riko_chan">#ff9eac</color>
+    <color name="kanan_chan">#27c1b7</color>
+    <color name="dia_chan">#db0839</color>
+    <color name="you_chan">#66c0ff</color>
+    <color name="yoshiko_chan">#c1cad4</color>
+    <color name="hanamaru_chan">#ffd010</color>
+    <color name="mari_chan">#c252c6</color>
+    <color name="ruby_chan">#ff6fbe</color>
+
 </resources>

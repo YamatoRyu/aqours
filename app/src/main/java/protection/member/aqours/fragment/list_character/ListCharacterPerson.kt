@@ -5,6 +5,10 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class ListCharacterPerson(
+    val characterName: String,
     val characterPhoto: Int,
-    val characterName: String
+    val characterColorName: Int,
+    val characterImage: Int,
+    val characterSubGroup: String,
+    val characterSchoolYears: String
 ) : Parcelable

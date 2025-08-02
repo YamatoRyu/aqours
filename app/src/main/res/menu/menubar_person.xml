@@ -3,12 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/character_story"
-        android:title=""
-        android:icon="@drawable/character_story"
-        app:showAsAction="ifRoom" />
-
-    <item
         android:id="@+id/character_photo_library"
         android:title=""
         android:icon="@drawable/character_photo_library"

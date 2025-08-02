@@ -46,6 +46,16 @@ class PersonFragment : Fragment() {
         val dataColorName = resources.getIntArray(R.array.image_color)
         val dataSubGroup = resources.getStringArray(R.array.image_sub_group)
         val dataSchoolYear = resources.getStringArray(R.array.image_school_years)
+        val dataBirthday = resources.getStringArray(R.array.image_birthday)
+        val dataZodiac = resources.getStringArray(R.array.astrological_sign)
+        val dataBloodType = resources.getStringArray(R.array.image_blood_type)
+        val dataHeight = resources.getStringArray(R.array.image_height)
+        val dataBackground = resources.getStringArray(R.array.image_background)
+        val dataPersonality = resources.getStringArray(R.array.image_personality)
+        val dataSkill = resources.getStringArray(R.array.image_skill)
+        val dataHobbies = resources.getStringArray(R.array.image_hobbies)
+        val dataLikeFood = resources.getStringArray(R.array.image_liked_food)
+        val dataDislikeFood = resources.getStringArray(R.array.image_dislike_food)
 
         for (i in dataName.indices) {
             val member = ListCharacterPerson(
@@ -54,7 +64,17 @@ class PersonFragment : Fragment() {
                 dataColorName[i],
                 dataImage.getResourceId(i, -1),
                 dataSubGroup[i],
-                dataSchoolYear[i]
+                dataSchoolYear[i],
+//                dataBirthday[i],
+//                dataZodiac[i],
+//                dataBloodType[i],
+//                dataHeight[i],
+//                dataBackground[i],
+//                dataPersonality[i],
+//                dataSkill[i],
+//                dataHobbies[i],
+//                dataLikeFood[i],
+//                dataDislikeFood[i]
             )
 
             memberList.add(member)

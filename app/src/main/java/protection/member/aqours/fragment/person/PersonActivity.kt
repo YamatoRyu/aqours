@@ -22,6 +22,10 @@ class PersonActivity : AppCompatActivity() {
             binding.image.setImageResource(it.characterImage)
             binding.name.text = it.characterName
             binding.name.setTextColor(it.characterColorName)
+
+            binding.subGroup.text = it.characterSubGroup
+            binding.schoolYears.text = it.characterSchoolYears
+//            binding.birthday.text = it.characterBirthday
         }
     }
 

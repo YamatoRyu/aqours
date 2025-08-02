@@ -10,5 +10,15 @@ data class ListCharacterPerson(
     val characterColorName: Int,
     val characterImage: Int,
     val characterSubGroup: String,
-    val characterSchoolYears: String
+    val characterSchoolYears: String,
+//    val characterBirthday: String,
+//    val characterZodiac: String,
+//    val characterBloodType: String,
+//    val characterHeight: String,
+//    val characterBackground: String,
+//    val characterPersonality: String,
+//    val characterSkill: String,
+//    val characterHobbies: String,
+//    val characterLikedFood: String,
+//    val characterDislikeFood: String
 ) : Parcelable

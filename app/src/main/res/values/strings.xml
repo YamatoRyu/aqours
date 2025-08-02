@@ -99,6 +99,46 @@
 
     </string-array>
 
+    <string-array name="image_birthday">
+
+    </string-array>
+
+    <string-array name="astrological_sign">
+
+    </string-array>
+
+    <string-array name="image_blood_type">
+
+    </string-array>
+
+    <string-array name="image_height">
+
+    </string-array>
+
+    <string-array name="image_background">
+
+    </string-array>
+
+    <string-array name="image_personality">
+
+    </string-array>
+
+    <string-array name="image_skill">
+
+    </string-array>
+
+    <string-array name="image_hobbies">
+
+    </string-array>
+
+    <string-array name="image_liked_food">
+
+    </string-array>
+
+    <string-array name="image_dislike_food">
+
+    </string-array>
+
     <string name="sub_group">Sub Group</string>
     <string name="school_years">School Years</string>
     <string name="birthday">Birthday</string>

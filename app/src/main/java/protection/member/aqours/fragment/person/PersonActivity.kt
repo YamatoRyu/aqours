@@ -25,7 +25,10 @@ class PersonActivity : AppCompatActivity() {
 
             binding.subGroup.text = it.characterSubGroup
             binding.schoolYears.text = it.characterSchoolYears
-//            binding.birthday.text = it.characterBirthday
+            binding.birthday.text = it.characterBirthday
+            binding.astrologicalSign.text = it.characterZodiac
+            binding.bloodType.text = it.characterBloodType
+            binding.height.text = it.characterHeight
         }
     }
 

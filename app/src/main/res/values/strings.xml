@@ -101,41 +101,181 @@
 
     <string-array name="image_birthday">
 
+        <item>August 1</item>
+        <item>September 19</item>
+        <item>February 10</item>
+        <item>January 1</item>
+        <item>April 17</item>
+        <item>July 13</item>
+        <item>March 4</item>
+        <item>June 13</item>
+        <item>September 21</item>
+
     </string-array>
 
     <string-array name="astrological_sign">
+
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Aquarius</item>
+        <item>Capricorn</item>
+        <item>Aries</item>
+        <item>Cancer</item>
+        <item>Pisces</item>
+        <item>Gemini</item>
+        <item>Virgo</item>
 
     </string-array>
 
     <string-array name="image_blood_type">
 
+        <item>B</item>
+        <item>A</item>
+        <item>O</item>
+        <item>A</item>
+        <item>AB</item>
+        <item>O</item>
+        <item>O</item>
+        <item>AB</item>
+        <item>A</item>
+
     </string-array>
 
     <string-array name="image_height">
+
+        <item>1m 57cm</item>
+        <item>1m 60cm</item>
+        <item>1m 62cm</item>
+        <item>1m 62cm</item>
+        <item>1m 57cm</item>
+        <item>1m 56cm</item>
+        <item>1m 52cm</item>
+        <item>1m 63cm</item>
+        <item>1m 54cm</item>
 
     </string-array>
 
     <string-array name="image_background">
 
+        <item>
+            "Chika-chan is the second-year student at Uranohoshi Girls\' High School who launched Aqours. "
+            "She is the youngest of three sisters and comes from a family with a ryokan known for its "
+            "open-air, ocean-view hot springs. She is neighbors with former Otonokizaka first year "
+            "student Sakurauchi Riko-chan and is childhood friends with Matsuura Kanan-chan and "
+            "Watanabe You-chan.\n\n"
+
+            "Chika\'s elder sisters are Shima and Mito. According to magazine material, her sisters "
+            "are also fans of μ\'s, though this does not seem to have been retained in the anime "
+            "adaptation. They also own a large dog named Shiitake.\n\n"
+
+            "In the first episode, on a trip to Tokyo with You-chan, the two learned about school "
+            "idols and the Love Live! tournament after seeing a screen with school idols at the Akiba "
+            "Dome, including µ\'s. She becomes fascinated with the idea of school idols, so she decides "
+            "to start, with You-chan, a school idol club of their own at their high school."
+        </item>
+
+        <item>
+            "Riko-chan is a second year transfer student from Otonokizaka High School, who joined "
+            "Uranohoshi after moving from Akihabara, Tokyo. She is in Takami Chika\'s class and is also "
+            "neighbors with her.\n\n"
+
+            "When Riko-chan lived in Tokyo, she used to play the piano, practicing in the same room as "
+            "former student and μ\'s member Nishikino Maki did at Otonokizaka. However, an incident "
+            "happened at a live play on which she was unable to play the piano due to scenic panic, "
+            "and since then she wasn\'t able to improve on her play. After moving to Uchiura, Chika-chan "
+            "learns of this in Season 1 Episode 2, and suggests that Riko-chan should become a school "
+            "idol with her and Watanabe You, in hopes it would inspire Riko-chan."
+        </item>
+
+        <item>
+            "Kanan-chan is a third-year student living on the offshore island of Awashima with her grandfather, "
+            "who runs a diving shop there. In the anime, she had a hard time attending classes as she must "
+            "take care of the shop while her father recovers from a fractured bone. She is able to attend "
+            "classes from Season 1 Episode 9 onwards. Kanan-chan is childhood friends with Takami Chika, "
+            "Watanabe You, Kurosawa Dia and Ohara Mari."
+        </item>
+
+        <item></item>
+
+        <item></item>
+
+        <item></item>
+
+        <item></item>
+
+        <item></item>
+
+        <item></item>
+
     </string-array>
 
     <string-array name="image_personality">
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
 
     </string-array>
 
     <string-array name="image_skill">
 
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
     </string-array>
 
     <string-array name="image_hobbies">
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
 
     </string-array>
 
     <string-array name="image_liked_food">
 
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
     </string-array>
 
     <string-array name="image_dislike_food">
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
 
     </string-array>
 

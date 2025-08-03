@@ -29,6 +29,8 @@ class PersonActivity : AppCompatActivity() {
             binding.astrologicalSign.text = it.characterZodiac
             binding.bloodType.text = it.characterBloodType
             binding.height.text = it.characterHeight
+            binding.background.text = it.characterBackground
+            binding.personality.text = it.characterPersonality
         }
     }
 

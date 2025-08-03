@@ -70,7 +70,7 @@ class PersonFragment : Fragment() {
                 dataBloodType[i],
                 dataHeight[i],
                 dataBackground[i],
-//                dataPersonality[i],
+                dataPersonality[i],
 //                dataSkill[i],
 //                dataHobbies[i],
 //                dataLikeFood[i],

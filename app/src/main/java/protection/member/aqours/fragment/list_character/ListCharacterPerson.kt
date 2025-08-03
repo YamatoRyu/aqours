@@ -16,7 +16,7 @@ data class ListCharacterPerson(
     val characterBloodType: String,
     val characterHeight: String,
     val characterBackground: String,
-//    val characterPersonality: String,
+    val characterPersonality: String,
 //    val characterSkill: String,
 //    val characterHobbies: String,
 //    val characterLikedFood: String,

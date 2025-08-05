@@ -31,6 +31,10 @@ class PersonActivity : AppCompatActivity() {
             binding.height.text = it.characterHeight
             binding.background.text = it.characterBackground
             binding.personality.text = it.characterPersonality
+            binding.skill.text = it.characterSkill
+            binding.hobbies.text = it.characterHobbies
+            binding.likedFood.text = it.characterLikedFood
+            binding.dislikeFood.text = it.characterDislikeFood
         }
     }
 

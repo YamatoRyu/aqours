@@ -176,7 +176,7 @@
 
         <item>
             "Riko-chan is a second year transfer student from Otonokizaka High School, who joined "
-            "Uranohoshi after moving from Akihabara, Tokyo. She is in Takami Chika\'s class and is also "
+            "Uranohoshi after moving from Akihabara, Tokyo. She is in Chika-chan\'s class and is also "
             "neighbors with her.\n\n"
 
             "When Riko-chan lived in Tokyo, she used to play the piano, practicing in the same room as "
@@ -191,8 +191,8 @@
             "Kanan-chan is a third-year student living on the offshore island of Awashima with her grandfather, "
             "who runs a diving shop there. In the anime, she had a hard time attending classes as she must "
             "take care of the shop while her father recovers from a fractured bone. She is able to attend "
-            "classes from Season 1 Episode 9 onwards. Kanan-chan is childhood friends with Takami Chika, "
-            "Watanabe You, Kurosawa Dia and Ohara Mari.\n\n"
+            "classes from Season 1 Episode 9 onwards. Kanan-chan is childhood friends with Chika-chan, "
+            "You-chan, Dia-san and Mari-chan.\n\n"
 
             "In Season 1 Episodes 6, 8 and 9, it is revealed Kanan-chan had actually formed a school idol "
             "group with Mari and Dia two years ago, having convinced the former to join. However, Mari-chan "
@@ -207,9 +207,9 @@
             "older sister of Kurosawa Ruby, who she shares a strong bond with. She is from an old family "
             "involved in fishing management whose name is well-known around the area. The Kurosawa family "
             "also owns a number of companies including real estate, entertainment, human resources and "
-            "restaurant management. Dia-san is childhood friends with Matsuura Kanan and Ohara Mari.\n\n"
+            "restaurant management. Dia-san is childhood friends with Kanan-chan and Mari-chan.\n\n"
 
-            "In the anime, Dia-san initially rejects the idea of an idol club because of Takami Chika\'s "
+            "In the anime, Dia-san initially rejects the idea of an idol club because of Chika-chan\'s "
             "incompetence and inexperience, chastising her for her lack of idol knowledge. It is later "
             "revealed in Season 1 Episode 4 that she used to be a fan of school idols, sharing this "
             "hobby with her sister Ruby-chan, although something caused her to lose that interest. "
@@ -222,8 +222,8 @@
         </item>
 
         <item>
-            "She is a second year and a classmate of Takami Chika, who is her childhood friend along "
-            "with Matsuura Kanan. Her father captains a ferry and she would like to have his job "
+            "She is a second year and a classmate of Chika-chan, who is her childhood friend along "
+            "with Kanan-chan. Her father captains a ferry and she would like to have his job "
             "someday. Her catchphrase is \'Yousoro!\' (ヨーソロー！ lit. Aye Aye!), on which she salutes "
             "like a sailor. This is often accompanied by the phrase \'Zensoku zenshin!\' (全速前進！ "
             "Full speed ahead!). She also has a cousin named Watanabe Tsuki, who lived in Italy.\n\n"
@@ -449,13 +449,13 @@
             "first. Her positive attitude also makes her one of the more charismatic members of the "
             "group. Since she would like to have her father\'s job as the captain of a ferry, she "
             "tends to salute when she says her catchphrase \'Yousoro!\', often in the place of "
-            "\'hello\' and \'good-bye\'."
+            "\'hello\' and \'good-bye\'.\n\n"
 
             "You-chan loves the friendship she has forged with Chika-chan over the years, so she "
-            "slowly grew jealous of Sakurauchi Riko\'s friendship with Chika-chan when she invites "
+            "slowly grew jealous of Riko-chan\'s friendship with Chika-chan when she invites "
             "her to join Aqours. This is hinted in Season 1 Episode 10, and is expanded upon in "
             "Season 1 Episode 11 when the members of Aqours find out the group originally consisted "
-            "of her and Chika-chan, rather than Chika-chan and Riko-chan. After Ohara Mari confronts "
+            "of her and Chika-chan, rather than Chika-chan and Riko-chan. After Mari-chan confronts "
             "her on it, You-chan expresses her feelings to her best friend, and stops being jealous "
             "of Riko-chan.\n\n"
         </item>
@@ -510,7 +510,7 @@
             "beautiful, cute and dazzling\'. She is also gentle and caring for those around her. "
             "Despite her appearance, Hanamaru-chan is also smart and not easily fooled.\n\n"
 
-            "Due to the fact the Second Years are considered \'the heart\' of Aqours, Hanamaru has "
+            "Due to the fact the Second Years are considered \'the heart\' of Aqours, Hanamaru-chan has "
             "some difficulty relating to the Third Years, which is shared with Yoshiko-chan; this is "
             "due to her preference for the indoors and for calmer activities. Season 2 Episode 2 "
             "explores this, and after a rainy evening forces the girls to stay indoors, the First "
@@ -570,57 +570,57 @@
 
     <string-array name="image_skill">
 
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>-</item>
+        <item>"Piano\nViola"</item>
+        <item>Diving</item>
+        <item>"Yamagato\nKitsuke (the art of wearing a kimono)"</item>
+        <item>High Diving</item>
+        <item>Video Game</item>
+        <item>-</item>
+        <item>"Flexibility\nSinging"</item>
+        <item>Coordinating Outfits</item>
 
     </string-array>
 
     <string-array name="image_hobbies">
 
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>"Softball\nKaraoke"</item>
+        <item>"Drawing\nHandicraft\nCooking"</item>
+        <item>"Astronomy\nSwimming"</item>
+        <item>"Watching Movies\nReading"</item>
+        <item>"Weight Training\nRunning\nUniforms"</item>
+        <item>Little devil-style fashion</item>
+        <item>Reading</item>
+        <item>"Sports\nHorseback Riding"</item>
+        <item>"Clothing\nNeedlework"</item>
 
     </string-array>
 
     <string-array name="image_liked_food">
 
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Oranges</item>
+        <item>"Hard-boiled Eggs\nSandwiches"</item>
+        <item>"Sea Snail\nSeaweed"</item>
+        <item>"Green Tea-Flavored Sweets\nFlan"</item>
+        <item>"Salisbury Steak\nOranges"</item>
+        <item>"Chocolate\nStrawberries\nSpicy Food"</item>
+        <item>"Oranges\nSweet Red Bean Paste"</item>
+        <item>"Coffee\nLemons"</item>
+        <item>"French Fries\nSweet Potatoes"</item>
 
     </string-array>
 
     <string-array name="image_dislike_food">
 
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>"Coffee\nShiokara"</item>
+        <item>"Bell Peppers"</item>
+        <item>"Pickled Plums"</item>
+        <item>"Salisbury Steak\nGratin"</item>
+        <item>"Sashimi\nAnything too dry"</item>
+        <item>"Oranges\nCoffee"</item>
+        <item>"Milk\nNoodles"</item>
+        <item>"Natto\nKimchi"</item>
+        <item>"Wasabi"</item>
 
     </string-array>
 

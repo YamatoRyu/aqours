@@ -71,10 +71,10 @@ class PersonFragment : Fragment() {
                 dataHeight[i],
                 dataBackground[i],
                 dataPersonality[i],
-//                dataSkill[i],
-//                dataHobbies[i],
-//                dataLikeFood[i],
-//                dataDislikeFood[i]
+                dataSkill[i],
+                dataHobbies[i],
+                dataLikeFood[i],
+                dataDislikeFood[i]
             )
 
             memberList.add(member)

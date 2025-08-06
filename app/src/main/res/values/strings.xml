@@ -15,7 +15,7 @@
 
     <string name="navbar_name">Aqours Leader: Chika-chan</string>
 
-<!--  Array Start  -->
+    <!--  Array Start  -->
     <integer-array name="image_face">
 
         <item>@drawable/chika_face1</item>
@@ -624,7 +624,7 @@
         <item>"Wasabi"</item>
 
     </string-array>
-<!--  Array end  -->
+    <!--  Array end  -->
 
     <string name="sub_group">Sub Group</string>
     <string name="school_years">School Years</string>

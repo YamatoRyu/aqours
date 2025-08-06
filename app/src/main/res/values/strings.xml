@@ -15,6 +15,7 @@
 
     <string name="navbar_name">Aqours Leader: Chika-chan</string>
 
+<!--  Array Start  -->
     <integer-array name="image_face">
 
         <item>@drawable/chika_face1</item>
@@ -623,6 +624,7 @@
         <item>"Wasabi"</item>
 
     </string-array>
+<!--  Array end  -->
 
     <string name="sub_group">Sub Group</string>
     <string name="school_years">School Years</string>
@@ -637,5 +639,8 @@
     <string name="hobbies">Hobbies</string>
     <string name="liked_food">Liked Food</string>
     <string name="dislike_food">Dislike Food</string>
+
+    <string name="title_home">Aqours</string>
+    <string name="character_name_home">Character</string>
 
 </resources>

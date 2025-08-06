@@ -11,15 +11,15 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import protection.member.aqours.R
 import protection.member.aqours.databinding.FragmentPersonBinding
-import protection.member.aqours.fragment.list_character.ListAllCharacterPerson
-import protection.member.aqours.fragment.list_character.ListCharacterPerson
+import protection.member.aqours.fragment.list_character.ListCharacter
+import protection.member.aqours.fragment.list_character.ListCharacterData
 
 class PersonFragment : Fragment() {
     private var _binding: FragmentPersonBinding? = null
     private val binding get() = _binding!!
 
     private lateinit var recyclerView: RecyclerView
-    private var arrayList: ArrayList<ListCharacterPerson> = ArrayList()
+    private var arrayList: ArrayList<ListCharacterData> = ArrayList()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         _binding = FragmentPersonBinding.inflate(layoutInflater, container, false)
@@ -37,8 +37,8 @@ class PersonFragment : Fragment() {
     }
 
     @SuppressLint("Recycle")
-    private fun getListAddCharacter(): ArrayList<ListCharacterPerson> {
-        val memberList = ArrayList<ListCharacterPerson>()
+    private fun getListAddCharacter(): ArrayList<ListCharacterData> {
+        val memberList = ArrayList<ListCharacterData>()
 
         val dataFace = resources.obtainTypedArray(R.array.image_face)
         val dataImage = resources.obtainTypedArray(R.array.image_clothes)
@@ -58,7 +58,7 @@ class PersonFragment : Fragment() {
         val dataDislikeFood = resources.getStringArray(R.array.image_dislike_food)
 
         for (i in dataName.indices) {
-            val member = ListCharacterPerson(
+            val member = ListCharacterData(
                 dataName[i],
                 dataFace.getResourceId(i, -1),
                 dataColorName[i],
@@ -85,17 +85,17 @@ class PersonFragment : Fragment() {
 
     private fun showAllCharacterList() {
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
-        val listAllCharacterPerson = ListAllCharacterPerson(arrayList)
-        recyclerView.adapter = listAllCharacterPerson
+        val listCharacter = ListCharacter(arrayList)
+        recyclerView.adapter = listCharacter
 
-        listAllCharacterPerson.setOnCharacterClick(object : ListAllCharacterPerson.OnClickCallBack {
-            override fun onItemClickCall(listCharacter: ListCharacterPerson) {
+        listCharacter.setOnCharacterClick(object : ListCharacter.OnClickCallBack {
+            override fun onItemClickCall(listCharacter: ListCharacterData) {
                 showCharacterPerson(listCharacter)
             }
         })
     }
 
-    private fun showCharacterPerson(listCharacter: ListCharacterPerson) {
+    private fun showCharacterPerson(listCharacter: ListCharacterData) {
         val characterName = listCharacter.toString().split("\\s|, ".toRegex())
         Toast.makeText(requireContext(), "All about ${characterName[1]}-chan", Toast.LENGTH_SHORT).show()
     }

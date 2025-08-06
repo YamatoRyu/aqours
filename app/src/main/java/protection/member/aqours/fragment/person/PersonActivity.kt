@@ -3,9 +3,8 @@ package protection.member.aqours.fragment.person
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
-import protection.member.aqours.R
 import protection.member.aqours.databinding.ActivityPersonBinding
-import protection.member.aqours.fragment.list_character.ListCharacterPerson
+import protection.member.aqours.fragment.list_character.ListCharacterData
 
 class PersonActivity : AppCompatActivity() {
     @Suppress("DEPRECATION")
@@ -16,7 +15,7 @@ class PersonActivity : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        val listPerson = intent.getParcelableExtra<ListCharacterPerson>("ALL_MEMBER")
+        val listPerson = intent.getParcelableExtra<ListCharacterData>("ALL_MEMBER")
 
         listPerson?.let {
             binding.image.setImageResource(it.characterImage)

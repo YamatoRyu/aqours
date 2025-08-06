@@ -11,11 +11,12 @@ import protection.member.aqours.databinding.ActivityPersonBinding
 import protection.member.aqours.fragment.list_character.ListCharacterData
 
 class PersonActivity : AppCompatActivity() {
-    private val binding = ActivityPersonBinding.inflate(layoutInflater)
+    private lateinit var binding: ActivityPersonBinding
 
     @Suppress("DEPRECATION")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        binding = ActivityPersonBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)

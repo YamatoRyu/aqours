@@ -13,8 +13,9 @@
     app:cardElevation="10dp">
 
     <ImageView
+        android:id="@+id/character_photo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:src="@drawable/riko__chan_photo1" />
+        tools:src="@drawable/riko_photo6" />
 
 </androidx.cardview.widget.CardView>

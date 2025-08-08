@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <integer-array name="chika">
+
+        <item>@drawable/chika_photo1</item>
+        <item>@drawable/chika_photo2</item>
+        <item>@drawable/chika_photo3</item>
+        <item>@drawable/chika_photo4</item>
+        <item>@drawable/chika_photo5</item>
+
+    </integer-array>
+
     <integer-array name="riko">
 
         <item>@drawable/riko_photo1</item>
         <item>@drawable/riko_photo2</item>
         <item>@drawable/riko_photo3</item>
+        <item>@drawable/riko_photo4</item>
+        <item>@drawable/riko_photo5</item>
 
     </integer-array>
 

@@ -11,12 +11,12 @@ import protection.member.aqours.databinding.ActivityPersonBinding
 import protection.member.aqours.fragment.list_character.ListCharacterData
 
 class PersonActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityPersonBinding
+    private var name: String = ""
 
     @Suppress("DEPRECATION")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityPersonBinding.inflate(layoutInflater)
+        val binding = ActivityPersonBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
@@ -26,6 +26,7 @@ class PersonActivity : AppCompatActivity() {
         listPerson?.let {
             binding.image.setImageResource(it.characterImage)
             binding.name.text = it.characterName
+            name = it.characterName
             binding.name.setTextColor(it.characterColorName)
 
             binding.subGroup.text = it.characterSubGroup
@@ -67,7 +68,7 @@ class PersonActivity : AppCompatActivity() {
     }
 
     private fun clickCharacterPersonPhoto(): Boolean {
-        val characterName = binding.name.toString().split(" ")
+        val characterName = name.toString().split(" ")
         Toast.makeText(this, "All ${characterName[1]}-chan image photo", Toast.LENGTH_LONG).show()
 
         val intent = Intent(this@PersonActivity, PersonPhotoActivity::class.java)

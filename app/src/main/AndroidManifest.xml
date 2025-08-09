@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Aqours"
         tools:targetApi="31">
         <activity
-            android:name=".fragment.person.PersonActivity"
+            android:name=".fragment.person.AboutPersonActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

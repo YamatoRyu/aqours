@@ -26,8 +26,8 @@
         android:label="fragment_person"
         tools:layout="@layout/fragment_person" >
         <action
-            android:id="@+id/action_personFragment_to_personActivity"
-            app:destination="@id/personActivity" />
+            android:id="@+id/action_personFragment_to_aboutPersonActivity"
+            app:destination="@id/aboutPersonActivity" />
     </fragment>
     <fragment
         android:id="@+id/storyFragment"
@@ -35,14 +35,9 @@
         android:label="fragment_story"
         tools:layout="@layout/fragment_story" />
     <activity
-        android:id="@+id/personActivity"
-        android:name="protection.member.aqours.fragment.person.PersonActivity"
-        android:label="activity_person"
-        tools:layout="@layout/activity_person" />
-    <fragment
-        android:id="@+id/allCharacterPhotoFragment"
-        android:name="protection.member.aqours.fragment.person.AllCharacterPhotoFragment"
-        android:label="fragment_all_character_photo"
-        tools:layout="@layout/fragment_all_character_photo" />
+        android:id="@+id/aboutPersonActivity"
+        android:name="protection.member.aqours.fragment.person.AboutPersonActivity"
+        android:label="activity_about_person"
+        tools:layout="@layout/activity_about_person" />
 
 </navigation>

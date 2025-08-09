@@ -11,8 +11,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import protection.member.aqours.R
 import protection.member.aqours.databinding.FragmentPersonBinding
-import protection.member.aqours.fragment.list_character.ListCharacter
-import protection.member.aqours.fragment.list_character.ListCharacterData
+import protection.member.aqours.fragment.person.list_character.ListCharacter
+import protection.member.aqours.fragment.person.list_character.ListCharacterData
 
 class PersonFragment : Fragment() {
     private var _binding: FragmentPersonBinding? = null

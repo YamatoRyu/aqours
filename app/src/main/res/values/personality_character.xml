@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="image_face">
+
+        <item>@drawable/chika_face1</item>
+        <item>@drawable/riko_face1</item>
+        <item>@drawable/kanan_face1</item>
+        <item>@drawable/dia_face1</item>
+        <item>@drawable/you_face1</item>
+        <item>@drawable/yoshiko_face1</item>
+        <item>@drawable/hanamaru_face1</item>
+        <item>@drawable/mari_face1</item>
+        <item>@drawable/ruby_face1</item>
+
+    </integer-array>
+
+    <integer-array name="image_clothes">
+
+        <item>@drawable/chika_image</item>
+        <item>@drawable/riko_image</item>
+        <item>@drawable/kanan_image</item>
+        <item>@drawable/dia_image</item>
+        <item>@drawable/you_image</item>
+        <item>@drawable/yoshiko_image</item>
+        <item>@drawable/hanamaru_image</item>
+        <item>@drawable/mari_image</item>
+        <item>@drawable/ruby_image</item>
+
+    </integer-array>
+
+    <string-array name="image_name">
+
+        <item>Takami Chika</item>
+        <item>Sakurauchi Riko</item>
+        <item>Matsuura Kanan</item>
+        <item>Kurosawa Dia</item>
+        <item>Watanabe You</item>
+        <item>Tsushima Yoshiko</item>
+        <item>Kunikida Hanamaru</item>
+        <item>Ohara Mari</item>
+        <item>Kurosawa Ruby</item>
+
+    </string-array>
+
+    <integer-array name="image_color">
+
+        <item>@color/chika_chan</item>
+        <item>@color/riko_chan</item>
+        <item>@color/kanan_chan</item>
+        <item>@color/dia_chan</item>
+        <item>@color/you_chan</item>
+        <item>@color/yoshiko_chan</item>
+        <item>@color/hanamaru_chan</item>
+        <item>@color/mari_chan</item>
+        <item>@color/ruby_chan</item>
+
+    </integer-array>
+
+    <string-array name="image_sub_group">
+
+        <item>CYaRon!</item>
+        <item>Guilty Kiss</item>
+        <item>AZALEA</item>
+        <item>AZALEA</item>
+        <item>CYaRon!</item>
+        <item>Guilty Kiss</item>
+        <item>AZALEA</item>
+        <item>Guilty Kiss</item>
+        <item>CYaRon!</item>
+
+    </string-array>
+
+    <string-array name="image_school_years">
+
+        <item>2nd year</item>
+        <item>2nd year</item>
+        <item>3rd year</item>
+        <item>3rd year</item>
+        <item>2nd year</item>
+        <item>1st year</item>
+        <item>1st year</item>
+        <item>3rd year</item>
+        <item>1st year</item>
+
+    </string-array>
+
+    <string-array name="image_birthday">
+
+        <item>August 1</item>
+        <item>September 19</item>
+        <item>February 10</item>
+        <item>January 1</item>
+        <item>April 17</item>
+        <item>July 13</item>
+        <item>March 4</item>
+        <item>June 13</item>
+        <item>September 21</item>
+
+    </string-array>
+
+    <string-array name="astrological_sign">
+
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Aquarius</item>
+        <item>Capricorn</item>
+        <item>Aries</item>
+        <item>Cancer</item>
+        <item>Pisces</item>
+        <item>Gemini</item>
+        <item>Virgo</item>
+
+    </string-array>
+
+    <string-array name="image_blood_type">
+
+        <item>B</item>
+        <item>A</item>
+        <item>O</item>
+        <item>A</item>
+        <item>AB</item>
+        <item>O</item>
+        <item>O</item>
+        <item>AB</item>
+        <item>A</item>
+
+    </string-array>
+
+    <string-array name="image_height">
+
+        <item>1m 57cm</item>
+        <item>1m 60cm</item>
+        <item>1m 62cm</item>
+        <item>1m 62cm</item>
+        <item>1m 57cm</item>
+        <item>1m 56cm</item>
+        <item>1m 52cm</item>
+        <item>1m 63cm</item>
+        <item>1m 54cm</item>
+
+    </string-array>
+
+    <string-array name="image_background">
+
+        <item>
+            "Chika-chan is the second-year student at Uranohoshi Girls\' High School who launched Aqours. "
+            "She is the youngest of three sisters and comes from a family with a ryokan known for its "
+            "open-air, ocean-view hot springs. She is neighbors with former Otonokizaka first year "
+            "student Sakurauchi Riko-chan and is childhood friends with Matsuura Kanan-chan and "
+            "Watanabe You-chan.\n\n"
+
+            "Chika\'s elder sisters are Shima and Mito. According to magazine material, her sisters "
+            "are also fans of μ\'s, though this does not seem to have been retained in the anime "
+            "adaptation. They also own a large dog named Shiitake.\n\n"
+
+            "In the first episode, on a trip to Tokyo with You-chan, the two learned about school "
+            "idols and the Love Live! tournament after seeing a screen with school idols at the Akiba "
+            "Dome, including µ\'s. She becomes fascinated with the idea of school idols, so she decides "
+            "to start, with You-chan, a school idol club of their own at their high school."
+        </item>
+
+        <item>
+            "Riko-chan is a second year transfer student from Otonokizaka High School, who joined "
+            "Uranohoshi after moving from Akihabara, Tokyo. She is in Chika-chan\'s class and is also "
+            "neighbors with her.\n\n"
+
+            "When Riko-chan lived in Tokyo, she used to play the piano, practicing in the same room as "
+            "former student and μ\'s member Nishikino Maki did at Otonokizaka. However, an incident "
+            "happened at a live play on which she was unable to play the piano due to scenic panic, "
+            "and since then she wasn\'t able to improve on her play. After moving to Uchiura, Chika-chan "
+            "learns of this in Season 1 Episode 2, and suggests that Riko-chan should become a school "
+            "idol with her and Watanabe You, in hopes it would inspire Riko-chan."
+        </item>
+
+        <item>
+            "Kanan-chan is a third-year student living on the offshore island of Awashima with her grandfather, "
+            "who runs a diving shop there. In the anime, she had a hard time attending classes as she must "
+            "take care of the shop while her father recovers from a fractured bone. She is able to attend "
+            "classes from Season 1 Episode 9 onwards. Kanan-chan is childhood friends with Chika-chan, "
+            "You-chan, Dia-san and Mari-chan.\n\n"
+
+            "In Season 1 Episodes 6, 8 and 9, it is revealed Kanan-chan had actually formed a school idol "
+            "group with Mari and Dia two years ago, having convinced the former to join. However, Mari-chan "
+            "had suffered an injury right before their performance, so she and Dia-chan decided to step down "
+            "and not perform. After Mari-chan travels to study abroad, she becomes more distant to her peers. "
+            "It is until Mari-chan learns the truth when Kanan-chan reconciles with her old friend, and decides "
+            "to become a school idol once again."
+        </item>
+
+        <item>
+            "Dia-san is a third-year student who is the president of the student council, and is the "
+            "older sister of Kurosawa Ruby, who she shares a strong bond with. She is from an old family "
+            "involved in fishing management whose name is well-known around the area. The Kurosawa family "
+            "also owns a number of companies including real estate, entertainment, human resources and "
+            "restaurant management. Dia-san is childhood friends with Kanan-chan and Mari-chan.\n\n"
+
+            "In the anime, Dia-san initially rejects the idea of an idol club because of Chika-chan\'s "
+            "incompetence and inexperience, chastising her for her lack of idol knowledge. It is later "
+            "revealed in Season 1 Episode 4 that she used to be a fan of school idols, sharing this "
+            "hobby with her sister Ruby-chan, although something caused her to lose that interest. "
+            "This is explained in Season 1 Episodes 6, 8 and 9, as she was part of a school idol group "
+            "formed by Kanan-chan, alongside her and Mari-chan. However, Mari-chan had suffered an injury "
+            "right before their performance, so Kanan-chan and Dia-san decided to step down and not "
+            "perform. This failure caused Dia-san to hide her interest in school idols and initially "
+            "try and prevent Chika-chan\'s idol club from happening, but she later joins Chika-chan\'s "
+            "group in Episode 9 after Mari-chan and Kanan-chan reconcile."
+        </item>
+
+        <item>
+            "She is a second year and a classmate of Chika-chan, who is her childhood friend along "
+            "with Kanan-chan. Her father captains a ferry and she would like to have his job "
+            "someday. Her catchphrase is \'Yousoro!\' (ヨーソロー！ lit. Aye Aye!), on which she salutes "
+            "like a sailor. This is often accompanied by the phrase \'Zensoku zenshin!\' (全速前進！ "
+            "Full speed ahead!). She also has a cousin named Watanabe Tsuki, who lived in Italy.\n\n"
+
+            "In the first episode, on a trip to Tokyo with Chika-chan, the two learned about school "
+            "idols and the Love Live! tournament after seeing a screen with school idols at the "
+            "Akiba Dome, including µ\'s. After Chika-chan becomes fascinated with the idea of school "
+            "idols, You-chan follows her into opening a school idol club of their own at their high school."
+        </item>
+
+        <item>
+            "Yoshiko-chan is a first year student who was born in the urban side of the city of Numazu. "
+            "She attended the same kindergarten as her friend Kunikida Hanamaru, who she calls "
+            "\'Zuramaru\' (ずら丸). Her mother is a teacher at a school.\n\n"
+
+            "Yoshiko-chan likes the \'little devil\' look and proclaims herself to be \'Yohane, the Fallen "
+            "Angel\' (堕だ天てん使しヨハネ Datenshi Yohane), an angel who has angered God and was cast "
+            "away from the heavens to Earth for going way too far being like God, developing a human "
+            "body which is merely a vessel to which her soul is bound to. She has developed this persona "
+            "ever since she was in kindergarten, and fully embraced it during middle school. Because "
+            "of this, it is implied she didn't have many friends during that time.\n\n"
+
+            "Yoshiko-chan meets up with her old kindergarten friend Hanamaru-chan, as well as Takami "
+            "Chika, Watanabe You and Kurosawa Ruby in the first episode, though she acts like \'Yohane\' "
+            "during that time until Hanamaru-chan drives her to act normally. In the following episode, "
+            "she attends class but immediately escapes after acting like \'Yohane\' once again. Finally "
+            "on Episode 5, she is found by Hanamaru-chan to be hiding on school, and is invited by "
+            "Chika-chan to form part of Aqours. After the group tries to adopt her \'fallen angel\' "
+            "style, however, she leaves the group for causing them trouble with the student council "
+            "president. She officially joins the group the same episode after they assure her they were "
+            "okay with her \'fallen angel\' persona."
+        </item>
+
+        <item>
+            "Hanamaru-chan, known as \'Maru\' for short (by herself and her friends), is a first year "
+            "student and the daughter of a family who has run a nearby temple for generations. She "
+            "lives with her grandparents, and since she does not have a computer, she often reads a "
+            "lot. Hanamaru-chan is Kurosawa Ruby\'s best friend, and both are often seen near the "
+            "other. She also attended the same kindergarten as Tsushima Yoshiko, also one of her friends.\n\n"
+
+            "Hanamaru-chan has a distinctive verbal tic and dialect, tending to end her sentences "
+            "with \'zura\' (ずら), as well as using \'ora\' as a first-person pronoun to refer to herself.\n\n"
+
+            "In the anime, in the first episode, Hanamaru-chan and Ruby are quickly approached by "
+            "Takami Chika, who invites them to be school idols. Confused, Hanamaru-chan quickly "
+            "dismisses the invitation. It is later revealed in Season 1 Episode 4 that Hanamaru-chan "
+            "actually was interested in school idols, especially after seeing a picture of Hoshizora "
+            "Rin from µ\'s, but couldn\'t bring herself to being a school idol herself because of "
+            "her appearance and lack of physical condition. She talks Ruby\'s sister, Kurosawa Dia, "
+            "into paying attention to what her sister actually wants, which was being a school idol. "
+            "After Ruby-chan joins Aqours, she tells Hanamaru-chan about the story of Rin-chan and "
+            "µ\'s, and Hanamaru-chan finally decides to join Aqours, supporting Ruby-chan in her endeavor."
+        </item>
+
+        <item>
+            "Mari-chan is a third-year student whose parents (her mother and Italian-American father) "
+            "manage a hotel chain, Ohara Hotels and Resorts, including Hotel Ohara on Awashima Island "
+            "(based on the actual Awashima Hotel, currently the Wyndham Grand Awashima) where Mari-chan "
+            "lives in a suite, which proves her upbringing from a very wealthy family. She\'s childhood "
+            "friends with Matsuura Kanan and Kurosawa Dia, knowing them since elementary school.\n\n"
+
+            "Due to her part Italian-American upbringing, Mari-chan speaks with an accent and often "
+            "inserts English words into her speech every few lines (in the English dub, the English "
+            "words are replaced with Italian words). She also tends to speak in the third-person.\n\n"
+
+            "She is first seen in the first episode flying in the family\'s helicopter, before formally "
+            "appearing in Episode 3, where she becomes the director of Uranohoshi Girls\' High School "
+            "(despite still being a student) after her family contributed a large amount of money to "
+            "the school. Season 1 Episodes 6, 8 and 9 reveal that she, Kanan-chan and Dia-san formed "
+            "a school idol group two years ago while on their first year, Kanan-chan having convinced "
+            "Mari-chan to join. However, Mari-chan had suffered an injury right before an important "
+            "performance, so Kanan-chan and Dia-san decided to step down and not perform. Later on, "
+            "Mari-chan leaves Uchiura to study abroad after the three disband their school idol group. "
+            "Once Mari-chan learns the truth in Episode 9, she confronts Kanan-chan over it, but both "
+            "reconcile with the other and decide to become school idols once again, joining Aqours "
+            "alongside Dia-san."
+        </item>
+
+        <item>
+            "Ruby-chan is a first year student who is the younger sister of Kurosawa Dia, who she "
+            "shares a strong bond with. She is from an old family involved in fishing management "
+            "whose name is well-known around the area. The Kurosawa family also owns a number of "
+            "companies including real estate, entertainment, human resources and restaurant management. "
+            "Ruby-chan is almost always nearby her best friend, Kunikida Hanamaru.\n\n"
+
+            "In the anime, in the first episode, Ruby-chan is shown to display a big interest in "
+            "school idols. Season 1 Episode 4 shows that she used to be a fan of school idols, "
+            "sharing this hobby with Dia-san, although something caused her older sister to seemingly "
+            "lose that interest, which is revealed in Season 1 Episodes 6, 8 and 9 to be Dia-san\'s "
+            "failure as a school idol. Ruby\'s love for school idols remained intact, but the event "
+            "made her secretly keep it away from her sister. She later joins Aqours in Season 1 "
+            "Episode 4, after counting with her sister\'s support."
+        </item>
+
+    </string-array>
+
+    <string-array name="image_personality">
+
+        <item>
+            "Chika is very energetic, goofy, sociable and has a very strong sense of perseverance. "
+            "The latter point is especially notable, as it is shown multiple times in the anime, "
+            "such as when she kept on trying to persuade the school council president, Kurosawa Dia, "
+            "to let the School Idol Club be approved. Her positive, can-do attitude gradually begins "
+            "to affect everyone around her as well as the anime progresses. Her energetic and "
+            "perseverant nature also makes her rather impatient and easy to tease about giving up, "
+            "only to make her even more perseverant on achieving her goal.\n\n"
+
+            "Due to her usual positive nature, however, she tends to hide her more sensitive side, "
+            "and tries hard not to cry when she is sad or frustrated, as she feels it would drag "
+            "down others\' morale if they were to see her feeling sad. This can be seen during Season "
+            "1 Episode 8, when she is deeply frustrated on the inside after Aqours\' disappointing "
+            "performance compared to the other school idol groups.\n\n"
+
+            "Chika-chan heavily dislikes when her friends get into confrontations she deems petty, "
+            "being one of the very few things that can anger her. This can be seen in Season 1 "
+            "Episode 9, where she mediates a dispute between Kanan-chan and Mari-chan after a nervous "
+            "Dia-san is unable to calm things down. She loves and treasures the friendships she\'s "
+            "made throughout her years at school, especially with You-chan, who has been her "
+            "childhood friend. Since Riko-chan moved to Uchiura, however, Chika-chan becomes very "
+            "interested in befriending her new fellow second year. Season 1 Episode 11 eventually "
+            "culminates with this on her and Riko-chan comforting a jealous You-chan about this. On "
+            "the other hand, she's not above making snide, deadpan expressions whenever one of her "
+            "friends is acting strange, such as with Yoshiko-chan."
+
+            "In one of the audio dramas, it is revealed Chika-chan not only has a habit making puns, "
+            "but of explaining them without being asked as well."
+        </item>
+
+        <item>
+            "Riko-chan is a reserved, kind, polite and modest girl who likes indoor activities, "
+            "acting as a foil to her friends, the more energetic Chika-chan and You-chan. She is rather "
+            "shy, but is nevertheless affable and friendly. However, while she is generally quite "
+            "levelheaded, calm and mature, she often flies into a panic when under pressure, jumping "
+            "to conclusions and making mistakes. Because of this, and a previous incident on which she "
+            "failed to play the piano in front of a live audience, she doesn\'t think she\'s special, "
+            "and doesn\'t want to become a school idol. However, her friend Chika drags her into it, "
+            "in the hopes this would inspire her to keep playing the piano.\n\n"
+
+            "In spite of her quiet and reserved personality, Riko-chan has cynophobia: she loses her "
+            "calm when she sees a dog (or anything she deems similar to one), to the point of moving "
+            "recklessly when faced with one directly. This is commonly seen throughout most of Season "
+            "1 (starting with Episode 2) and is finally expanded upon in Season 2 Episode 5. After she "
+            "and Tsushima Yoshiko temporarily take care of a dog in the same episode, her fear of dogs "
+            "is revoked and she eventually understands she likes them, getting her own in Season 2 Episode 13.\n\n"
+
+            "Riko-chan can also be quite playful and dorky, this is especially seen with Chika-chan, an "
+            "example being when she copies Chika-chan\'s \'normal monster\' act to help Chika combat "
+            "her hopelessness in Season 2 Episode 1. Additionally, after the events of Season 2 Episode "
+            "5, her interactions with Yoshiko-chan causes Riko-chan to start acting like her at times "
+            "and be called \'Lili\' (Riri) by her, which annoys Riko-chan. (This name is derived from "
+            "Lilith, a demon in Jewish mythology, and is also the double pronunciation of the first "
+            "syllable of her name.)"
+        </item>
+
+        <item>
+            "Breezily mature, Kanan-chan rarely sweats the details and usually maintains a calm, "
+            "cool and even stoic demeanor. Though she may seem a bit bland at first, she loves "
+            "sports and nature, claiming that she is happy every day just by being able to see the "
+            "dazzling sun, the blue skies and the sea. She isn\'t as talkative as her fellow third "
+            "years, speaking the least of them in the anime, but is nevertheless friendly and laid-back.\n\n"
+
+            "Kanan-chan is a very kind, warm-hearted and altruistic individual. She deeply cares for "
+            "her friends, being very supportive and often putting their needs above her own, going to "
+            "great lengths to ensure they get what she thinks is best for them. However, due to this, "
+            "Kanan-chan can fail to realize the others\' feelings the same way she does, and she will "
+            "go to the same lengths to hide the truth if it will hurt the person. This particularly "
+            "caused her friend, Mari-chan, to accept the chance of studying abroad when in reality she "
+            "didn\'t want to, as Mari-chan was content with being with her friends.\n\n"
+
+            "After Mari-chan goes to study abroad, this causes Kanan-chan to live with the weight of "
+            "her lie, acting much more distant and aloof to Mari-chan when she returns a year and a "
+            "half later to Uranohoshi. When Mari-chan learns the truth in Season 1 Episode 9, "
+            "confronting Kanan-chan and expressing how much she cares for her, Kanan-chan finally "
+            "reconciles with her old friend, stops being distant, and becomes friendly once again."
+        </item>
+
+        <item>
+            "Dia-san is a very refined, polite and mature young woman who speaks in a formal style of "
+            "Japanese, regarding all of her friends with politeness by referring to each of them as "
+            "\'-san\', and usually ending her phrases with \'-desu wa.\' Strict, hardworking, and a "
+            "bit of a perfectionist, she dislikes it when things are done sloppily or incorrectly, "
+            "which is part of the reason why she initially rejected Chika-chan\'s application for a "
+            "school idol club. She is very meticulous regarding small details, as far as going on "
+            "tirades regarding the unorthodox reading of certain Kanji.\n\n"
+
+            "Though always trying to remain dignified and serious, Dia-san has a short temper, and "
+            "she can be quite brash and melodramatic, while she also has a smiley heart and is very "
+            "kind to her group. Whenever she denies something, she uses her catchphrase \'Buu buu "
+            "desu wa!\' (ブッブーですわ！ \'Bzzt bzzt, it is not!\'), as if imitating a buzzer. She "
+            "also tends to become overly zealous when school idols are involved, as she is very "
+            "passionate about the subject, which becomes apparent in Season 1 Episode 2.\n\n"
+
+            "Because Dia-san can be quite harsh, she initially had the most difficulty in getting "
+            "along with the rest of Aqours with the exception of her fellow third years, despite "
+            "being adaptable like Ruby-chan (as seen in Season 2 Episode 2); this is especially "
+            "notable when referring to the second years. Although she is formal and polite, she also "
+            "wishes the rest of the group referred to her as a friend by using more informal "
+            "pronouns much like the other third years, despite referring to them with politeness. "
+            "After Season 2 Episode 4, she becomes more patient towards them, and the group refers "
+            "to her informally more often, displaying more closeness to them.\n\n"
+
+            "Dia-san can be described as a tsundere. While she is strict with a tough exterior, "
+            "Dia-san is genuinely kind deep down and cares for all of her friends, particularly her "
+            "younger sister Ruby-chan, whom she is very protective and nurturing of. She wants "
+            "nothing less than total success for Aqours, and constantly pushes herself and her "
+            "friends to be the best they can possibly be in order to achieve their goals. After the "
+            "events of Season 1 Episodes 7 and 8, she expresses the group her support for them, "
+            "revealing part of the reason why she initially rejected the application for their "
+            "school idol group is that she was afraid they would be demoralized in the same fashion "
+            "she was in the past, demonstrating a soft side to her. Season 1 Episode 9 also reveals "
+            "that, due to her close friendship with her fellow third years, she can have difficulty "
+            "at settling down a harsh discussion, as she becomes insecure at which side to pick.\n\n"
+
+            "According to Mari-chan and Kanan-chan, Dia has a habit of scratching her beauty mark "
+            "whenever she is telling a lie. Flashbacks of her younger self on certain episodes also "
+            "reveal she used to be much like her sister Ruby-chan, fairly timid, fearful and easily "
+            "moved to tears, though she did start to develop her more serious side as time passed."
+        </item>
+
+        <item>
+            "You-chan is an energetic, tomboyish and positive girl with an outlook of focusing on "
+            "her goals, which can sometimes cause her to take action without thinking things over "
+            "first. Her positive attitude also makes her one of the more charismatic members of the "
+            "group. Since she would like to have her father\'s job as the captain of a ferry, she "
+            "tends to salute when she says her catchphrase \'Yousoro!\', often in the place of "
+            "\'hello\' and \'good-bye\'.\n\n"
+
+            "You-chan loves the friendship she has forged with Chika-chan over the years, so she "
+            "slowly grew jealous of Riko-chan\'s friendship with Chika-chan when she invites "
+            "her to join Aqours. This is hinted in Season 1 Episode 10, and is expanded upon in "
+            "Season 1 Episode 11 when the members of Aqours find out the group originally consisted "
+            "of her and Chika-chan, rather than Chika-chan and Riko-chan. After Mari-chan confronts "
+            "her on it, You-chan expresses her feelings to her best friend, and stops being jealous "
+            "of Riko-chan.\n\n"
+        </item>
+
+        <item>
+            "Yoshiko-chan seems to be a chuunibyou, a person who holds delusions of grandeur. "
+            "Bright, self-assured, smart, and thoughtful, Yoshiko-chan has a persona who she "
+            "describes as \'Yohane\', a \'fallen angel\' who has angered God and was cast from the "
+            "heavens to Earth. Apparently, a side effect to being a \'fallen angel\' is that she is "
+            "cursed with extremely bad luck, running into all kinds of unforeseen trouble wherever "
+            "she goes: raining whenever she goes on trips, falling whenever it snows, not winning "
+            "anything from lucky draws in convenience stores, falling sick right before exams, and "
+            "so on. Because of this, she often blames herself for Aqours misfortunes. Through her "
+            "delusional persona, Yoshiko-chan acts dramatic, cunning, and a little bit devious, and "
+            "often goes as far as using dark, devilish accessories or clothing to further accentuate "
+            "her \'fallen angel\' look as \'Yohane\'. When acting like her, Yoshiko-chan\'s voice "
+            "is significantly lower-pitched.\n\n"
+
+            "Yoshiko-chan has embraced this side of herself so much, she hates to be called by her "
+            "real name and demands to be referred to as \'Yohane\' instead, going as far as to cross "
+            "out her real name in her introduction and replace it as such as well as claiming herself "
+            "to be the goddaughter of \'Satan\' Lucifer. As a result of embracing her \'Yohane\' side, "
+            "it is hard for Yoshiko to act like a normal person (something she herself is aware of). "
+            "This causes her difficulty to get along properly with her classmates and, at times, the "
+            "rest of Aqours. She is often teased by her friends Ruby and Hanamaru for acting like "
+            "\'Yohane\', which is annoying for her. Such moments can cause her voice to reveal her "
+            "actual, high-pitched, voice.\n\n"
+
+            "In spite of all this, Yoshiko-chan is a genuinely kind and decent girl, and isn\'t "
+            "ill-willed by nature; she does treasure her friendship with the rest of Aqours for "
+            "accepting her \'Yohane\' side; this is most evident with Ruby-chan and Hanamaru-chan, "
+            "as shown in Season 1 Episode 13. Additionally, she affectionately refers to her "
+            "friends as \'little demons\' (リトルデーモン Ritoru dēmon), particularly Riko-chan, whom "
+            "she refers to as \'Little Demon Lili/Riri\'. Her kindness is also shown when she "
+            "rescues a dog along with Riko-chan, and helps her friend overcoming her fear of dogs. "
+            "Despite her \'Yohane\' side, Yoshiko-chan is also able to pull off a normal "
+            "conversation when it's really needed, most notably in Season 2 Episode 9."
+        </item>
+
+        <item>
+            "Hanamaru-chan is a hardworking girl who diligently works at her family\'s temple. She "
+            "spends a lot of time reading alone and is easily distracted by books. Since she was "
+            "raised as a temple girl, Hanamaru-chan does not watch television much, nor does she use "
+            "the internet, making her outdated. Because of this, she is fascinated with modern "
+            "technology, yelling her catchphrase \'Mirai zura!\' (未来ずら \'It\'s the future, zura!\') "
+            "when she sees something advanced such as a computer. She was often teased due to this, "
+            "but was usually defended by her best friend Ruby-chan; however, the first time it "
+            "happened, Ruby-chan ended up crying, causing Hanamaru-chan to comfort her instead.\n\n"
+
+            "Hanamaru seems to be quite self-depreciating, calling herself a \'chibi procrastinator\' "
+            "and \'neither cute nor interesting\'. She aspires to be like Ruby, whom she sees as \'"
+            "beautiful, cute and dazzling\'. She is also gentle and caring for those around her. "
+            "Despite her appearance, Hanamaru-chan is also smart and not easily fooled.\n\n"
+
+            "Due to the fact the Second Years are considered \'the heart\' of Aqours, Hanamaru-chan has "
+            "some difficulty relating to the Third Years, which is shared with Yoshiko-chan; this is "
+            "due to her preference for the indoors and for calmer activities. Season 2 Episode 2 "
+            "explores this, and after a rainy evening forces the girls to stay indoors, the First "
+            "and Third Years are able to relate to the others, with Hanamaru-chan seemingly relating "
+            "to Matsuura Kanan the most.\n\n"
+
+            "Hanamaru-chan is shown to have a playful and mischievous side; this is especially "
+            "present when she teases Yoshiko-chan\'s Fallen Angel behavior and her embarrassing "
+            "moments (often alongside Ruby-chan), which annoys Yoshiko-chan all the time. She has a "
+            "surprisingly large appetite, able to eat a food helping quickly and often asking for "
+            "another one immediately after, and is usually seen eating sweets in the background, the "
+            "most common of them being a roll of noppo bread."
+        </item>
+
+        <item>
+            "Mari-chan has a cheerful, eccentric and mischievous personality, makes many jokes, and "
+            "often prefers to work by herself. She always keeps her chin up when faced with hardship "
+            "so as not to burden others, and is ready to try her hand at anything. However, as a "
+            "half-foreigner, she does not feel that she is very suited to being a Japanese-style idol.\n\n"
+
+            "Despite Mari-chan\'s cheerful personality, there are times when she can be serious as "
+            "shown in Season 1 Episode 9.\n\n"
+
+            "Mari-chan speaks with an accent, and she has a high, cheerful voice. Mari-chan often "
+            "inserts English words (Italian in the English dub) into her sentences, but when she is "
+            "sad or serious, the pitch of her voice becomes lower, she loses her accent, and she "
+            "uses English words less."
+        </item>
+
+        <item>
+            "Ruby-chan is very shy and timid, which makes it hard for her to get along with other "
+            "people. She has a tendency to utter or scream \'Pigii!!!\' when she doesn\'t like "
+            "something; in the event she screams, her face will turn red as she does so. Although "
+            "she is fearful and easily upset, she does have a tough interior forged by her role as "
+            "the daughter of a rich, well-known family. She meets Leah Kazuno in Tokyo, who she "
+            "becomes very close with.\n\n"
+
+            "From a different perspective, Ruby-chan is adaptable and mostly admired by her friends, "
+            "and they support her no matter what; despite the fact the Second Years are considered "
+            "\'the heart\' of Aqours, Ruby-chan does not have difficulty getting along with the "
+            "rest of the group unlike her fellow First Years or the Third Years, as seen in Season 2 "
+            "Episode 2.\n\n"
+
+            "Ruby-chan also speaks in the third person from time to time, just like Hanamaru-chan. "
+            "However, she tends to use \'watashi\' as a first-person pronoun.\n\n"
+
+            "Due to the strong bond she shares with her sister Dia-san, Ruby-chan will immediately "
+            "display her tough interior and defend her sister when a negative point of her is "
+            "brought up, as seen in Season 2 Episode 8. Ruby-chan is also shown to have a playful "
+            "and mischievous side of her when she teases Yoshiko-chan\'s Fallen Angel behavior and "
+            "her embarrassing moments (alongside Hanamaru-chan), which annoys Yoshiko-chan all the "
+            "time. She also despises spicy food, as seen in Season 1 Episode 10, when she eats a "
+            "takoyaki filled with tabasco sauce instead of octopus sauce."
+        </item>
+
+    </string-array>
+
+    <string-array name="image_skill">
+
+        <item>-</item>
+        <item>"Piano\nViola"</item>
+        <item>Diving</item>
+        <item>"Yamagato\nKitsuke (the art of wearing a kimono)"</item>
+        <item>High Diving</item>
+        <item>Video Game</item>
+        <item>-</item>
+        <item>"Flexibility\nSinging"</item>
+        <item>Coordinating Outfits</item>
+
+    </string-array>
+
+    <string-array name="image_hobbies">
+
+        <item>"Softball\nKaraoke"</item>
+        <item>"Drawing\nHandicraft\nCooking"</item>
+        <item>"Astronomy\nSwimming"</item>
+        <item>"Watching Movies\nReading"</item>
+        <item>"Weight Training\nRunning\nUniforms"</item>
+        <item>Little devil-style fashion</item>
+        <item>Reading</item>
+        <item>"Sports\nHorseback Riding"</item>
+        <item>"Clothing\nNeedlework"</item>
+
+    </string-array>
+
+    <string-array name="image_liked_food">
+
+        <item>Oranges</item>
+        <item>"Hard-boiled Eggs\nSandwiches"</item>
+        <item>"Sea Snail\nSeaweed"</item>
+        <item>"Green Tea-Flavored Sweets\nFlan"</item>
+        <item>"Salisbury Steak\nOranges"</item>
+        <item>"Chocolate\nStrawberries\nSpicy Food"</item>
+        <item>"Oranges\nSweet Red Bean Paste"</item>
+        <item>"Coffee\nLemons"</item>
+        <item>"French Fries\nSweet Potatoes"</item>
+
+    </string-array>
+
+    <string-array name="image_dislike_food">
+
+        <item>"Coffee\nShiokara"</item>
+        <item>"Bell Peppers"</item>
+        <item>"Pickled Plums"</item>
+        <item>"Salisbury Steak\nGratin"</item>
+        <item>"Sashimi\nAnything too dry"</item>
+        <item>"Oranges\nCoffee"</item>
+        <item>"Milk\nNoodles"</item>
+        <item>"Natto\nKimchi"</item>
+        <item>"Wasabi"</item>
+
+    </string-array>
+
+</resources>

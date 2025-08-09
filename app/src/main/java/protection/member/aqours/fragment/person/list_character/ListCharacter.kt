@@ -1,4 +1,4 @@
-package protection.member.aqours.fragment.list_character
+package protection.member.aqours.fragment.person.list_character
 
 import android.content.Intent
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 import protection.member.aqours.R
-import protection.member.aqours.fragment.person.PersonActivity
+import protection.member.aqours.fragment.person.AboutPersonActivity
 
 class ListCharacter(private val listCharacter: List<ListCharacterData>) : RecyclerView.Adapter<ListCharacter.ListCharacterMember>() {
     private lateinit var onClickCallBack: OnClickCallBack
@@ -32,7 +32,7 @@ class ListCharacter(private val listCharacter: List<ListCharacterData>) : Recycl
         holder.itemView.setOnClickListener {
             onClickCallBack.onItemClickCall(listCharacter[position])
 
-            val intent = Intent(holder.itemView.context, PersonActivity::class.java).apply {
+            val intent = Intent(holder.itemView.context, AboutPersonActivity::class.java).apply {
                 putExtra("ALL_MEMBER", listCharacter[position])
             }
 

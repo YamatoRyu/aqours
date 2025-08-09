@@ -1,4 +1,4 @@
-package protection.member.aqours.fragment.list_character
+package protection.member.aqours.fragment.person.list_character
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

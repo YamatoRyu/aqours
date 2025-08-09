@@ -1,4 +1,4 @@
-package protection.member.aqours.fragment
+package protection.member.aqours.fragment.music_solo
 
 import android.os.Bundle
 import android.view.LayoutInflater

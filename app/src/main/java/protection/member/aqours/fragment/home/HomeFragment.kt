@@ -1,18 +1,18 @@
-package protection.member.aqours.fragment
+package protection.member.aqours.fragment.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import protection.member.aqours.databinding.FragmentStoryBinding
+import protection.member.aqours.databinding.FragmentHomeBinding
 
-class StoryFragment : Fragment() {
-    private var _binding: FragmentStoryBinding? = null
+class HomeFragment : Fragment() {
+    private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        _binding = FragmentStoryBinding.inflate(layoutInflater, container, false)
+        _binding = FragmentHomeBinding.inflate(layoutInflater, container, false)
 
         return binding.root
     }

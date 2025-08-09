@@ -1,6 +1,5 @@
 package protection.member.aqours.fragment.person
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -8,7 +7,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import protection.member.aqours.R
 import protection.member.aqours.databinding.ActivityPersonBinding
-import protection.member.aqours.list_character.ListCharacterData
+import protection.member.aqours.fragment.list_character.ListCharacterData
 
 class PersonActivity : AppCompatActivity() {
     private var name: String = ""
@@ -71,8 +70,6 @@ class PersonActivity : AppCompatActivity() {
         val characterName = name.toString().split(" ")
         Toast.makeText(this, "All ${characterName[1]}-chan image photo", Toast.LENGTH_LONG).show()
 
-        val intent = Intent(this@PersonActivity, PersonPhotoActivity::class.java)
-        startActivity(intent)
         return true
     }
 }

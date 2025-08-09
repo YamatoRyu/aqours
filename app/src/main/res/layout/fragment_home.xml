@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.HomeFragment">
+    tools:context=".fragment.home.HomeFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -53,149 +53,157 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/chika_card"
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:layout_marginStart="5dp"
+        <LinearLayout
+            android:id="@+id/linear_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
             android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/character">
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/chika_face2" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/chika_card"
+                android:layout_width="110dp"
+                android:layout_height="110dp">
 
-        </androidx.cardview.widget.CardView>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/chika_face2" />
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/riko_card"
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:layout_marginStart="10dp"
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/riko_card"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/riko_face2" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/kanan_card"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/kanan_face2" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
             android:layout_marginTop="20dp"
-            app:layout_constraintStart_toEndOf="@+id/chika_card"
-            app:layout_constraintTop_toBottomOf="@+id/character">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/riko_face2" />
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/kanan_card"
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="20dp"
-            app:layout_constraintStart_toEndOf="@+id/riko_card"
-            app:layout_constraintTop_toBottomOf="@+id/character">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/kanan_face2" />
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/dia_card"
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/chika_card">
+            app:layout_constraintTop_toBottomOf="@+id/linear_layout1">
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/dia_face2" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/dia_card"
+                android:layout_width="110dp"
+                android:layout_height="110dp">
 
-        </androidx.cardview.widget.CardView>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/dia_face2" />
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/you_card"
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:layout_marginStart="10dp"
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/you_card"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/you_face2" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/yoshiko_card"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/yoshiko_face2" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
             android:layout_marginTop="20dp"
-            app:layout_constraintStart_toEndOf="@+id/dia_card"
-            app:layout_constraintTop_toBottomOf="@+id/riko_card">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/you_face2" />
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/yoshiko_card"
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="20dp"
-            app:layout_constraintStart_toEndOf="@+id/you_card"
-            app:layout_constraintTop_toBottomOf="@+id/kanan_card">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/yoshiko_face2" />
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/hanamaru_card"
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/dia_card">
+            app:layout_constraintTop_toBottomOf="@+id/linear_layout2">
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/hanamaru_face2" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/hanamaru_card"
+                android:layout_width="110dp"
+                android:layout_height="110dp">
 
-        </androidx.cardview.widget.CardView>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/hanamaru_face2" />
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/mari_card"
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="20dp"
-            app:layout_constraintStart_toEndOf="@+id/hanamaru_card"
-            app:layout_constraintTop_toBottomOf="@+id/you_card">
+            </androidx.cardview.widget.CardView>
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/mari_face2" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/mari_card"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="10dp">
 
-        </androidx.cardview.widget.CardView>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mari_face2" />
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/ruby_card"
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="20dp"
-            app:layout_constraintStart_toEndOf="@+id/mari_card"
-            app:layout_constraintTop_toBottomOf="@+id/yoshiko_card">
+            </androidx.cardview.widget.CardView>
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/ruby_face2" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ruby_card"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="10dp">
 
-        </androidx.cardview.widget.CardView>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ruby_face2" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -1,4 +1,4 @@
-package protection.member.aqours.fragment.list_character
+package protection.member.aqours.list_character
 
 import android.content.Intent
 import android.view.LayoutInflater

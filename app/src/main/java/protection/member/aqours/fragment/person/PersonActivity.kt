@@ -8,7 +8,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import protection.member.aqours.R
 import protection.member.aqours.databinding.ActivityPersonBinding
-import protection.member.aqours.fragment.list_character.ListCharacterData
+import protection.member.aqours.list_character.ListCharacterData
 
 class PersonActivity : AppCompatActivity() {
     private var name: String = ""
